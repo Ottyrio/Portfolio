@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>contact</title>
-</head>
-<body>
-    <h1>contact Page</h1>
-</body>
+  </head>
+  <body>
+    <!-- header -->
+    <a href="index.html">Home</a>&nbsp; <a href="project.html">Project</a>&nbsp;
+    <a href="services.html">Services</a>&nbsp;
+    <a href="about.html">About</a>&nbsp; <a href="blog.html">Blog</a>&nbsp;
+    <a href="contact.html">Contact</a>&nbsp;
+<hr/>
+
+<!-- jumbotron -->
+<h1>Contact me</h1>
+<p>This page helps you contact me</p>
+<hr/>
+<!-- Main section -->
+<form>
+
+    <label for="email">Email * </label><input id="email" type="email" placeholder="Your email"/><br/><br/>
+    <label for="name">Name * </label><input id="name" type="text" placeholder="Your name"/><br/><br/>
+    <label for="Subject">Subject * </label><input id="subject" type="text" placeholder="subject"/><br/><br/>
+    <label for="tel">Tel. </label><input type="text" placeholder="+254" size="3"/>&nbsp;<input id="tel"type="text" placeholder="07********" size="15"/>
+   <br/><br/>
+    <label>Products</label><br/>
+   <select name="products" id="products">
+    <option value="web">Web application</option>
+    <option value="db">Database</option>
+    <option value="android app">Android application</option>
+    <option value="cloud">cloud services</option>
+  </select>
+  <br/>  <br/>
+  <label>Message *</label><br/>
+  <textarea id="message" rows="8" cols="40">
+Message us
+    </textarea>
+    <br/>  <br/>
+    <input type="checkbox" id="sub" name="subscribe" value="subscribed">
+    <label for="sub"> Subscribe with us</label><br>
+<br/>
+    <button type="submit">send message</button>
+</form>
+
+<hr/>
+<!-- footer -->
+<ul>
+    <li><a href="https://github.com/Ottyrio">Github</a></li>
+    <li>
+      <a href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"
+        >linkedin</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://twitter.com/search?q=%22Miguna%20Miguna%22&src=trend_click&vertical=trends"
+        >Twitter</a
+      >
+    </li>
+    <li><a href="https://mail.google.com/mail/u/0/#inbox">email</a></li>
+    <li><a href="https://www.instagram.com/otienorio/">instagram</a></li>
+  </ul>
+  <p>Copyright © 2021</p>
+    </body>
+  </body>
 </html>
